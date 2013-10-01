@@ -1,0 +1,21 @@
+apply plugin: 'java'
+apply plugin: 'maven'
+
+group = 'groupId'
+version = '1.0-SNAPSHOT'
+
+description = """"""
+
+sourceCompatibility = 1.7
+targetCompatibility = 1.7
+
+
+
+repositories {
+        
+     mavenRepo url: "http://repo.maven.apache.org/maven2"
+}
+dependencies {
+    compile group: 'org.codehaus.groovyfx', name: 'groovyfx', version:'0.3.1'
+//    system group: 'com.oracle', name: 'javafx', version:'2.2.3'
+}

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+
+<AnchorPane id="paper" minHeight="0.0" minWidth="0.0" prefHeight="674.0" prefWidth="596.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2">
+  <children>
+    <TableView id="table1" layoutX="0.0" layoutY="0.0" prefHeight="137.0" prefWidth="167.0">
+      <columns>
+        <TableColumn id="" prefWidth="75.0" text="Column X" />
+        <TableColumn prefWidth="75.0" text="Column X" />
+      </columns>
+    </TableView>
+    <Accordion maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minWidth="-1.0" pickOnBounds="true" prefHeight="-1.0" prefWidth="-1.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="300.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+      <expandedPane>
+        <TitledPane fx:id="x1" animated="false" text="Properties">
+          <content>
+            <AnchorPane id="Content" minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+              <children>
+                <Label layoutX="133.0" layoutY="6.0" text="Table" />
+                <TextField id="xView" layoutX="10.0" layoutY="42.0" prefWidth="29.0" />
+                <TextField layoutX="13.0" layoutY="86.0" prefWidth="146.0" />
+                <TextField layoutX="13.0" layoutY="109.0" prefWidth="146.0" />
+                <TextField id="yView" layoutX="50.0" layoutY="42.0" prefWidth="29.0" />
+                <Label id="x" layoutX="21.0" layoutY="22.0" text="X" />
+                <Label id="y" layoutX="61.0" layoutY="22.0" text="Y" />
+              </children>
+            </AnchorPane>
+          </content>
+        </TitledPane>
+      </expandedPane>
+      <panes>
+        <fx:reference source="x1" />
+        <TitledPane animated="false" minWidth="145.0" prefHeight="500.0" prefWidth="145.0" text="untitled">
+          <content>
+            <AnchorPane id="Content" minHeight="0.0" minWidth="0.0" prefHeight="310.0" prefWidth="180.0" />
+          </content>
+        </TitledPane>
+      </panes>
+    </Accordion>
+  </children>
+</AnchorPane>
